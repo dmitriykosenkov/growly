@@ -894,18 +894,18 @@ body {
   padding-right: calc( 27px + 13 * ((100vw - 320px) / 1120));
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 68px minmax(auto, 90px) auto 18px;
+  -ms-grid-rows: 68px  auto auto 18px;
   -ms-grid-columns: 1fr;
-      grid-template: 68px minmax(auto, 90px) auto 18px/1fr;
+      grid-template: 68px  auto auto 18px / 1fr;
   gap: 34px;
   gap: calc( 16px + 18 * ((100vw - 320px) / 1120));
 }
 
 @media (max-width: 767.98px) {
   .cards-testimonials__item {
-    -ms-grid-rows: 68px minmax(auto, 45px) auto 18px;
+    -ms-grid-rows: 68px auto auto 18px;
     -ms-grid-columns: 1fr;
-        grid-template: 68px minmax(auto, 45px) auto 18px/1fr;
+        grid-template: 68px auto auto 18px / 1fr;
   }
 }
 
